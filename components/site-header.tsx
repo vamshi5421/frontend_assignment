@@ -40,7 +40,7 @@ export function SiteHeader() {
                 })}
               >
                 <Icons.linkedIn className="h-5 w-5 fill-current" />
-                <span className="sr-only">Twitter</span>
+                <span className="sr-only">linkedIn</span>
               </div>
             </Link>
             <ThemeToggle />

@@ -1,10 +1,9 @@
 "use client"
 
 import "@/styles/globals.css"
-import { Metadata } from "next"
+import { useReportWebVitals } from "next/web-vitals"
 import { RecoilRoot } from "recoil"
 
-import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { SiteHeader } from "@/components/site-header"
@@ -16,6 +15,16 @@ interface RootLayoutProps {
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
+  useReportWebVitals((metric) => {
+    if (
+      metric.name === "FCP" ||
+      metric.name === "LCP" ||
+      metric.name === "Next.js-render"
+    ) {
+      // Log the load time to the console
+      console.log(`${metric.name}: ${metric.value}ms`)
+    }
+  })
   return (
     <>
       <html lang="en" suppressHydrationWarning>
