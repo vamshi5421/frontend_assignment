@@ -72,7 +72,7 @@ export function DialogModel() {
         <DialogHeader>
           <DialogTitle>Edit Query</DialogTitle>
           <DialogDescription>
-            Make changes to your query. Click save when you're done.
+            Make changes to your query. Click save when you&apos;re done.
           </DialogDescription>
         </DialogHeader>
         <div className="grid gap-4 py-4">
