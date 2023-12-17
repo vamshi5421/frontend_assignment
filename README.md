@@ -1,5 +1,7 @@
 # Project/Assignment README
 
+[Preview]( https://frontend-assignment-indol.vercel.app/) 
+
 ## 1. Project Overview
 
 The SQL Query Runner is a web-based application designed to facilitate the execution of SQL queries and display the results seamlessly within the application. The primary goal is to provide users with a user-friendly interface that accepts SQL queries, executes them, and presents the query results in a clear and accessible manner.
@@ -39,7 +41,12 @@ To run the project locally, follow these steps:
 
 For a production build, use `npm run build` followed by `npm start`.
 
-## Additional Notes
+## Screenshots
+
+[Light mode](/lightmode.png)
+
+[Dark mode](/darkmode.png)
+
 
 
 **Note:** Ensure that you have the necessary prerequisites installed before running the project.
